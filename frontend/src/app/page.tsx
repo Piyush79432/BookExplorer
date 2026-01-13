@@ -565,7 +565,9 @@ const HistorySection = () => {
       // 2. Fetch from your backend
       const res = await fetch(`${API_BASE_URL}/history`, {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+       headers: {
+    "Content-Type": "application/json",
+    "Bypass-Tunnel-Reminder": "true" },
         body: JSON.stringify({ ids: historyIds })
       });
 
