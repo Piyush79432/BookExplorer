@@ -566,8 +566,9 @@ const HistorySection = () => {
       const res = await fetch(`${API_BASE_URL}/history`, {
         method: 'POST',
        headers: {
-    "Content-Type": "application/json",
-    "Bypass-Tunnel-Reminder": "true" },
+    'Content-Type': 'application/json', 
+    'Bypass-Tunnel-Reminder': 'true',
+    'User-Agent': 'BookExplorer-App'},
         body: JSON.stringify({ ids: historyIds })
       });
 
