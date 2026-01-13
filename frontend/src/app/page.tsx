@@ -38,7 +38,7 @@ import { motion, AnimatePresence } from "framer-motion"
 // 1. CONFIGURATION & TYPES
 // ==========================================
 
-const API_BASE_URL = "https://pink-paws-look.loca.lt"
+const API_BASE_URL = " https://katerine-isobathic-deloris.ngrok-free.dev"
 
 // --- Currency Config (Base: GBP) ---
 const CURRENCIES = [
