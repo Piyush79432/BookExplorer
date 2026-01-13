@@ -624,16 +624,22 @@ function CollectionContent({ slug }: { slug: string }) {
        activeGroups = [FICTION_MAIN_GROUP];
     }
   
-    const fetchWithHeaders = async (url: string) => {
-      try {
-        const res = await fetch(url, { headers: { 'Content-Type': 'application/json', "Bypass-Tunnel-Reminder": "true" } });
-        if (!res.ok) throw new Error('Fetch failed');
-        return await res.json();
-      } catch (err) {
-        console.error("Fetch Error:", err);
-        throw err;
-      }
-    };
+   const fetchWithHeaders = async (url: string) => {
+  try {
+    const res = await fetch(url, { 
+      headers: { 
+        'Content-Type': 'application/json', 
+        "Bypass-Tunnel-Reminder": "true", // Skips the Localtunnel warning page
+      } 
+    });
+    
+    if (!res.ok) throw new Error('Fetch failed');
+    return await res.json();
+  } catch (err) {
+    console.error("Fetch Error:", err);
+    throw err;
+  }
+};
   
     useEffect(() => {
       async function initFetch() {
