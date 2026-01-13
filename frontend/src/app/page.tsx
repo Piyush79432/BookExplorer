@@ -38,7 +38,7 @@ import { motion, AnimatePresence } from "framer-motion"
 // 1. CONFIGURATION & TYPES
 // ==========================================
 
-const API_BASE_URL = "https://katerine-isobathic-deloris.ngrok-free.dev"
+const API_BASE_URL = "https://server1-1-uo5x.onrender.com"
 
 // --- Currency Config (Base: GBP) ---
 const CURRENCIES = [
