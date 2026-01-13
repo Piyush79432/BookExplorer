@@ -609,14 +609,6 @@ This project is licensed under the **MIT License** - see the [LICENSE](./LICENSE
 
 ---
 
-## 📞 Support & Contact
-
-- **Issues**: Open a GitHub issue for bugs or feature requests
-- **Discussions**: Use GitHub Discussions for questions
-- **Email**: contact@bookexplorer.dev
-- **Discord**: [Join Community Server](https://discord.gg/bookexplorer)
-
----
 
 ## 📈 Project Status
 
@@ -626,13 +618,5 @@ This project is licensed under the **MIT License** - see the [LICENSE](./LICENSE
 
 ---
 
-## 🙏 Acknowledgments
-
-- Next.js and Vercel team for the amazing framework
-- shadcn/ui for pre-built components
-- Tailwind CSS for utility-first styling
-- All contributors and community members
-
----
 
 **Happy exploring! If you find BookExplorer useful, please consider giving us a ⭐ on GitHub.**
