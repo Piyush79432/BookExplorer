@@ -626,7 +626,7 @@ function CollectionContent({ slug }: { slug: string }) {
   
     const fetchWithHeaders = async (url: string) => {
       try {
-        const res = await fetch(url, { headers: { 'Content-Type': 'application/json', 'ngrok-skip-browser-warning': 'true' } });
+        const res = await fetch(url, { headers: { 'Content-Type': 'application/json', "Bypass-Tunnel-Reminder": "true" });
         if (!res.ok) throw new Error('Fetch failed');
         return await res.json();
       } catch (err) {
