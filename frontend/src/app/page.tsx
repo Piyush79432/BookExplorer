@@ -38,7 +38,7 @@ import { motion, AnimatePresence } from "framer-motion"
 // 1. CONFIGURATION & TYPES
 // ==========================================
 
-const API_BASE_URL = "http://localhost:3001"
+const API_BASE_URL = "https://tired-eyes-bathe.loca.lt"
 
 // --- Currency Config (Base: GBP) ---
 const CURRENCIES = [
