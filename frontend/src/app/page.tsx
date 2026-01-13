@@ -567,8 +567,10 @@ const HistorySection = () => {
         method: 'POST',
        headers: {
     'Content-Type': 'application/json', 
-    'Bypass-Tunnel-Reminder': 'true',
-    'User-Agent': 'BookExplorer-App'},
+        // ✅ Add this for ngrok
+        'ngrok-skip-browser-warning': 'true', 
+        // Keep this if you still have Localtunnel logic
+        'Bypass-Tunnel-Reminder': 'true'},
         body: JSON.stringify({ ids: historyIds })
       });
 
