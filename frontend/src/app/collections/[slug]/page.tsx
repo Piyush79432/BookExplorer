@@ -14,7 +14,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 // ==========================================
 // 1. CONFIGURATION & TYPES
 // ==========================================
-const API_BASE_URL = 'http://localhost:3001'; 
+const API_BASE_URL = 'https://tired-eyes-bathe.loca.lt'; 
 
 const CURRENCIES = [
   { code: "GBP", symbol: "£", rate: 1.0, name: "British Pound" },
